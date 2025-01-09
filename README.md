@@ -19,3 +19,20 @@
    pip install -r requirements.txt
    ```
 
+### 2. Delete an Environment in Conda
+
+1. Get the list of existing env
+```
+conda env list
+```
+
+2. Deactivate the conda env
+```
+conda deactivate
+```
+
+3. Delete an env
+```
+conda remove --name <env name> --all
+```
+
