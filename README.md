@@ -35,4 +35,12 @@ conda deactivate
 ```
 conda remove --name <env name> --all
 ```
+### 3. Run Fastapi with uvicorn
+```
+uvicorn backend:app --reload 
+```
+### 4. Run Steamlite App
+```
+streamlit run app.py
+```
 
