@@ -19,6 +19,15 @@
    pip install -r requirements.txt
    ```
 
+### virtual Env
+```
+# Create virtual environment
+python -m venv venv
+
+# Activate it (on Mac/Linux)
+source venv/bin/activate
+```
+
 ### 2. Delete an Environment in Conda
 
 1. Get the list of existing env
