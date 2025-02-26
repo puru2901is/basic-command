@@ -28,6 +28,16 @@ python -m venv venv
 source venv/bin/activate
 ```
 
+### Requirement file in python
+
+```
+#You can install all these dependencies at once using:
+pip install -r requirements.txt
+#If you want to generate a requirements.txt from your current virtual environment, you can use:
+pip freeze > requirements.txt
+
+```
+
 ### 2. Delete an Environment in Conda
 
 1. Get the list of existing env
